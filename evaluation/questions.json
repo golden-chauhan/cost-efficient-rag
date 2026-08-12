@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Q01",
+    "question": "What is a Python class?",
+    "relevant_source": "classes.html"
+  },
+  {
+    "id": "Q02",
+    "question": "How does inheritance work in Python?",
+    "relevant_source": "classes.html"
+  },
+  {
+    "id": "Q03",
+    "question": "What is a lambda expression?",
+    "relevant_source": "controlflow.html"
+  },
+  {
+    "id": "Q04",
+    "question": "How does Python handle exceptions?",
+    "relevant_source": "errors.html"
+  },
+  {
+    "id": "Q05",
+    "question": "What is the purpose of the try statement?",
+    "relevant_source": "errors.html"
+  },
+  {
+    "id": "Q06",
+    "question": "How can a list be used as a stack?",
+    "relevant_source": "datastructures.html"
+  },
+  {
+    "id": "Q07",
+    "question": "What is the difference between a list and a tuple?",
+    "relevant_source": "datastructures.html"
+  },
+  {
+    "id": "Q08",
+    "question": "How are dictionaries used in Python?",
+    "relevant_source": "datastructures.html"
+  },
+  {
+    "id": "Q09",
+    "question": "How do you read and write files in Python?",
+    "relevant_source": "inputoutput.html"
+  },
+  {
+    "id": "Q10",
+    "question": "How are modules imported in Python?",
+    "relevant_source": "modules.html"
+  },
+  {
+    "id": "Q11",
+    "question": "What is the purpose of the if statement?",
+    "relevant_source": "controlflow.html"
+  },
+  {
+    "id": "Q12",
+    "question": "How does a for loop work in Python?",
+    "relevant_source": "controlflow.html"
+  },
+  {
+    "id": "Q13",
+    "question": "How does a while loop work in Python?",
+    "relevant_source": "controlflow.html"
+  },
+  {
+    "id": "Q14",
+    "question": "What are Python dictionaries?",
+    "relevant_source": "datastructures.html"
+  },
+  {
+    "id": "Q15",
+    "question": "What are tuples in Python?",
+    "relevant_source": "datastructures.html"
+  },
+  {
+    "id": "Q16",
+    "question": "What happens when an exception occurs?",
+    "relevant_source": "errors.html"
+  },
+  {
+    "id": "Q17",
+    "question": "What is a Python module?",
+    "relevant_source": "modules.html"
+  },
+  {
+    "id": "Q18",
+    "question": "How does Python search for modules?",
+    "relevant_source": "modules.html"
+  },
+  {
+    "id": "Q19",
+    "question": "How can data be written to a file in Python?",
+    "relevant_source": "inputoutput.html"
+  },
+  {
+    "id": "Q20",
+    "question": "What are generator expressions in Python?",
+    "relevant_source": "controlflow.html"
+  }
+]

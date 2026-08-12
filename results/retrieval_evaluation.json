@@ -1,0 +1,403 @@
+{
+  "configuration": {
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dimension": 384,
+    "chunk_size": 500,
+    "chunk_overlap": 100,
+    "top_k": 5,
+    "vector_store": "ChromaDB"
+  },
+  "summary": {
+    "questions": 20,
+    "recall_at_1": 0.575,
+    "recall_at_3": 0.8666666666666666,
+    "recall_at_5": 0.95,
+    "mrr": 0.7375,
+    "ndcg_at_5": 0.789599395218413
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "What is a Python class?",
+      "relevant_chunks": [
+        "classes.html_0_9edde77f623fd0c0"
+      ],
+      "retrieved_chunks": [
+        "classes.html_0_9edde77f623fd0c0",
+        "classes.html_1_9d2571a7fa8dd247",
+        "classes.html_7_15d8c7b992d0d4ca",
+        "classes.html_2_3485317bc57839e2",
+        "classes.html_28_5ef44601fd7d9ced"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_5": 1.0
+    },
+    {
+      "id": "Q02",
+      "question": "How does inheritance work in Python?",
+      "relevant_chunks": [
+        "classes.html_54_057e8035fb8c67a5"
+      ],
+      "retrieved_chunks": [
+        "classes.html_1_9d2571a7fa8dd247",
+        "classes.html_7_15d8c7b992d0d4ca",
+        "classes.html_54_057e8035fb8c67a5",
+        "classes.html_0_9edde77f623fd0c0",
+        "classes.html_28_5ef44601fd7d9ced"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "ndcg_at_5": 0.5
+    },
+    {
+      "id": "Q03",
+      "question": "What is a lambda expression?",
+      "relevant_chunks": [
+        "controlflow.html_68_9ebffef5acd19997"
+      ],
+      "retrieved_chunks": [
+        "controlflow.html_68_9ebffef5acd19997",
+        "controlflow.html_67_0fcbbd8d40d6990b",
+        "controlflow.html_69_0f3ac01f21f5a513",
+        "inputoutput.html_12_b853b8b9d5b7b15f",
+        "classes.html_76_a5f1c4e304ad8ebf"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_5": 1.0
+    },
+    {
+      "id": "Q04",
+      "question": "How does Python handle exceptions?",
+      "relevant_chunks": [
+        "errors.html_3_2aef6e353a5c3805"
+      ],
+      "retrieved_chunks": [
+        "errors.html_15_901cd9f678341986",
+        "errors.html_18_fa19a8dd9637defd",
+        "errors.html_3_2aef6e353a5c3805",
+        "errors.html_12_a4033a7b51f4d389",
+        "errors.html_8_94f7350353f26218"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "ndcg_at_5": 0.5
+    },
+    {
+      "id": "Q05",
+      "question": "What is the purpose of the try statement?",
+      "relevant_chunks": [
+        "errors.html_8_94f7350353f26218"
+      ],
+      "retrieved_chunks": [
+        "errors.html_30_be106510505fb209",
+        "controlflow.html_14_8493513ab73d8996",
+        "errors.html_9_d43b4f8a95915c6c",
+        "errors.html_8_94f7350353f26218",
+        "errors.html_18_fa19a8dd9637defd"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_3": 0.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.25,
+      "ndcg_at_5": 0.43067655807339306
+    },
+    {
+      "id": "Q06",
+      "question": "How can a list be used as a stack?",
+      "relevant_chunks": [
+        "datastructures.html_8_f7c19ed5b68cbe8d"
+      ],
+      "retrieved_chunks": [
+        "datastructures.html_8_f7c19ed5b68cbe8d",
+        "datastructures.html_7_92baa54f67e6de0a",
+        "datastructures.html_11_ceafc4b6e827a5e0",
+        "datastructures.html_27_134154b88a904685",
+        "datastructures.html_0_f604aeac546edc69"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_5": 1.0
+    },
+    {
+      "id": "Q07",
+      "question": "What is the difference between a list and a tuple?",
+      "relevant_chunks": [
+        "datastructures.html_27_134154b88a904685"
+      ],
+      "retrieved_chunks": [
+        "datastructures.html_27_134154b88a904685",
+        "datastructures.html_26_41c353a7d4cfc3a4",
+        "datastructures.html_24_85dc93fcf3b9899e",
+        "datastructures.html_33_c4370acee3fccdbf",
+        "datastructures.html_25_923c33279408719d"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_5": 1.0
+    },
+    {
+      "id": "Q08",
+      "question": "How are dictionaries used in Python?",
+      "relevant_chunks": [
+        "datastructures.html_32_21bc9e4819ef42f0"
+      ],
+      "retrieved_chunks": [
+        "datastructures.html_32_21bc9e4819ef42f0",
+        "datastructures.html_37_4519664bfdc5cb6e",
+        "datastructures.html_34_5da7b05bd2f66406",
+        "modules.html_22_af59a50dbaca6875",
+        "index.html_5_b9e9018ea098affa"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_5": 1.0
+    },
+    {
+      "id": "Q09",
+      "question": "How do you read and write files in Python?",
+      "relevant_chunks": [
+        "inputoutput.html_34_f44507adf0727d2c"
+      ],
+      "retrieved_chunks": [
+        "inputoutput.html_34_f44507adf0727d2c",
+        "inputoutput.html_28_7af82e30c394643b",
+        "inputoutput.html_33_275a7a106676d27c",
+        "inputoutput.html_39_d4059304cfec78aa",
+        "index.html_5_b9e9018ea098affa"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_5": 1.0
+    },
+    {
+      "id": "Q10",
+      "question": "How are modules imported in Python?",
+      "relevant_chunks": [
+        "modules.html_7_fa7504cfb76044e1"
+      ],
+      "retrieved_chunks": [
+        "modules.html_7_fa7504cfb76044e1",
+        "modules.html_22_af59a50dbaca6875",
+        "modules.html_14_6272f63a51c27900",
+        "modules.html_2_0eb50e47fcd61de0",
+        "modules.html_43_2c19b9dfe0c6365e"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_5": 1.0
+    },
+    {
+      "id": "Q11",
+      "question": "What is the purpose of the if statement?",
+      "relevant_chunks": [
+        "controlflow.html_0_0aa48d1f85ea6f1b"
+      ],
+      "retrieved_chunks": [
+        "controlflow.html_14_8493513ab73d8996",
+        "controlflow.html_13_d0c45b1dbd363d2f",
+        "controlflow.html_0_0aa48d1f85ea6f1b",
+        "classes.html_23_b4c8945434a16df8",
+        "controlflow.html_11_c1640e26d7e1c45f"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.3333333333333333,
+      "ndcg_at_5": 0.5
+    },
+    {
+      "id": "Q12",
+      "question": "How does a for loop work in Python?",
+      "relevant_chunks": [
+        "controlflow.html_2_0ebfa4ea03ca339c"
+      ],
+      "retrieved_chunks": [
+        "classes.html_70_4f4c827fb7b8727f",
+        "controlflow.html_2_0ebfa4ea03ca339c",
+        "classes.html_69_fc6191c5a3e365a2",
+        "controlflow.html_7_2930d2d11e38653e",
+        "datastructures.html_13_0db40488d62dbcd3"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.5,
+      "ndcg_at_5": 0.6309297535714575
+    },
+    {
+      "id": "Q13",
+      "question": "How does a while loop work in Python?",
+      "relevant_chunks": [
+        "controlflow.html_11_c1640e26d7e1c45f"
+      ],
+      "retrieved_chunks": [
+        "classes.html_70_4f4c827fb7b8727f",
+        "controlflow.html_11_c1640e26d7e1c45f",
+        "controlflow.html_0_0aa48d1f85ea6f1b",
+        "controlflow.html_2_0ebfa4ea03ca339c",
+        "controlflow.html_13_d0c45b1dbd363d2f"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.5,
+      "ndcg_at_5": 0.6309297535714575
+    },
+    {
+      "id": "Q14",
+      "question": "What are Python dictionaries?",
+      "relevant_chunks": [
+        "datastructures.html_32_21bc9e4819ef42f0"
+      ],
+      "retrieved_chunks": [
+        "datastructures.html_32_21bc9e4819ef42f0",
+        "datastructures.html_37_4519664bfdc5cb6e",
+        "index.html_5_b9e9018ea098affa",
+        "index.html_2_73b3860b6a8b0885",
+        "classes.html_5_5adc3b6092049844"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_5": 1.0
+    },
+    {
+      "id": "Q15",
+      "question": "What are tuples in Python?",
+      "relevant_chunks": [
+        "datastructures.html_25_923c33279408719d"
+      ],
+      "retrieved_chunks": [
+        "datastructures.html_25_923c33279408719d",
+        "datastructures.html_26_41c353a7d4cfc3a4",
+        "datastructures.html_33_c4370acee3fccdbf",
+        "datastructures.html_24_85dc93fcf3b9899e",
+        "datastructures.html_29_5ea3701983f8eead"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_5": 1.0
+    },
+    {
+      "id": "Q16",
+      "question": "What happens when an exception occurs?",
+      "relevant_chunks": [
+        "errors.html_29_4017077313cb056d",
+        "errors.html_9_d43b4f8a95915c6c"
+      ],
+      "retrieved_chunks": [
+        "errors.html_29_4017077313cb056d",
+        "errors.html_26_15578fe595810d08",
+        "errors.html_9_d43b4f8a95915c6c",
+        "errors.html_14_962ac7bbb3e7e3f5",
+        "errors.html_5_7ce90580d68a83ab"
+      ],
+      "recall_at_1": 0.5,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_5": 0.9197207891481876
+    },
+    {
+      "id": "Q17",
+      "question": "What is a Python module?",
+      "relevant_chunks": [
+        "modules.html_2_0eb50e47fcd61de0"
+      ],
+      "retrieved_chunks": [
+        "modules.html_22_af59a50dbaca6875",
+        "index.html_5_b9e9018ea098affa",
+        "modules.html_0_751498eb1f012e6d",
+        "index.html_3_5a46e79b3aa3637e",
+        "index.html_2_73b3860b6a8b0885"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_3": 0.0,
+      "recall_at_5": 0.0,
+      "reciprocal_rank": 0.0,
+      "ndcg_at_5": 0.0
+    },
+    {
+      "id": "Q18",
+      "question": "How does Python search for modules?",
+      "relevant_chunks": [
+        "modules.html_14_6272f63a51c27900"
+      ],
+      "retrieved_chunks": [
+        "modules.html_14_6272f63a51c27900",
+        "modules.html_22_af59a50dbaca6875",
+        "modules.html_25_edc375a973cec7a6",
+        "modules.html_33_43faf12952b84660",
+        "modules.html_26_386aac7b62d638f5"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_5": 1.0
+    },
+    {
+      "id": "Q19",
+      "question": "How can data be written to a file in Python?",
+      "relevant_chunks": [
+        "inputoutput.html_34_f44507adf0727d2c",
+        "inputoutput.html_36_74ffc5d90ab4d64d",
+        "inputoutput.html_33_275a7a106676d27c"
+      ],
+      "retrieved_chunks": [
+        "inputoutput.html_39_d4059304cfec78aa",
+        "inputoutput.html_34_f44507adf0727d2c",
+        "inputoutput.html_41_d2501cad75be2e7e",
+        "inputoutput.html_36_74ffc5d90ab4d64d",
+        "inputoutput.html_33_275a7a106676d27c"
+      ],
+      "recall_at_1": 0.0,
+      "recall_at_3": 0.3333333333333333,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.5,
+      "ndcg_at_5": 0.6797310500037655
+    },
+    {
+      "id": "Q20",
+      "question": "What are generator expressions in Python?",
+      "relevant_chunks": [
+        "classes.html_76_a5f1c4e304ad8ebf"
+      ],
+      "retrieved_chunks": [
+        "classes.html_76_a5f1c4e304ad8ebf",
+        "classes.html_74_6ae0d26ee7464ca4",
+        "classes.html_73_262ab8a1d59152b6",
+        "index.html_6_bcb320fdf8817be1",
+        "datastructures.html_11_ceafc4b6e827a5e0"
+      ],
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0,
+      "ndcg_at_5": 1.0
+    }
+  ]
+}

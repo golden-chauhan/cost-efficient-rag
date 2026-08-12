@@ -1,0 +1,145 @@
+[
+  {
+    "id": "Q01",
+    "question": "What is a Python class?",
+    "relevant_chunks": [
+      "classes.html_0_9edde77f623fd0c0"
+    ]
+  },
+  {
+    "id": "Q02",
+    "question": "How does inheritance work in Python?",
+    "relevant_chunks": [
+      "classes.html_54_057e8035fb8c67a5"
+    ]
+  },
+  {
+    "id": "Q03",
+    "question": "What is a lambda expression?",
+    "relevant_chunks": [
+      "controlflow.html_68_9ebffef5acd19997"
+    ]
+  },
+  {
+    "id": "Q04",
+    "question": "How does Python handle exceptions?",
+    "relevant_chunks": [
+      "errors.html_3_2aef6e353a5c3805"
+    ]
+  },
+  {
+    "id": "Q05",
+    "question": "What is the purpose of the try statement?",
+    "relevant_chunks": [
+      "errors.html_8_94f7350353f26218"
+    ]
+  },
+  {
+    "id": "Q06",
+    "question": "How can a list be used as a stack?",
+    "relevant_chunks": [
+      "datastructures.html_8_f7c19ed5b68cbe8d"
+    ]
+  },
+  {
+    "id": "Q07",
+    "question": "What is the difference between a list and a tuple?",
+    "relevant_chunks": [
+      "datastructures.html_27_134154b88a904685"
+    ]
+  },
+  {
+    "id": "Q08",
+    "question": "How are dictionaries used in Python?",
+    "relevant_chunks": [
+      "datastructures.html_32_21bc9e4819ef42f0"
+    ]
+  },
+  {
+    "id": "Q09",
+    "question": "How do you read and write files in Python?",
+    "relevant_chunks": [
+      "inputoutput.html_34_f44507adf0727d2c"
+    ]
+  },
+  {
+    "id": "Q10",
+    "question": "How are modules imported in Python?",
+    "relevant_chunks": [
+      "modules.html_7_fa7504cfb76044e1"
+    ]
+  },
+  {
+    "id": "Q11",
+    "question": "What is the purpose of the if statement?",
+    "relevant_chunks": [
+      "controlflow.html_0_0aa48d1f85ea6f1b"
+    ]
+  },
+  {
+    "id": "Q12",
+    "question": "How does a for loop work in Python?",
+    "relevant_chunks": [
+      "controlflow.html_2_0ebfa4ea03ca339c"
+    ]
+  },
+  {
+    "id": "Q13",
+    "question": "How does a while loop work in Python?",
+    "relevant_chunks": [
+      "controlflow.html_11_c1640e26d7e1c45f"
+    ]
+  },
+  {
+    "id": "Q14",
+    "question": "What are Python dictionaries?",
+    "relevant_chunks": [
+      "datastructures.html_32_21bc9e4819ef42f0"
+    ]
+  },
+  {
+    "id": "Q15",
+    "question": "What are tuples in Python?",
+    "relevant_chunks": [
+      "datastructures.html_25_923c33279408719d"
+    ]
+  },
+  {
+    "id": "Q16",
+    "question": "What happens when an exception occurs?",
+    "relevant_chunks": [
+      "errors.html_29_4017077313cb056d",
+      "errors.html_9_d43b4f8a95915c6c"
+    ]
+  },
+  {
+    "id": "Q17",
+    "question": "What is a Python module?",
+    "relevant_chunks": [
+        "modules.html_2_0eb50e47fcd61de0"
+    ]
+  },
+  {
+    "id": "Q18",
+    "question": "How does Python search for modules?",
+    "relevant_chunks": [
+      "modules.html_14_6272f63a51c27900"
+    ]
+  },
+  {
+    "id": "Q19",
+    "question": "How can data be written to a file in Python?",
+    "relevant_chunks": [
+      "inputoutput.html_34_f44507adf0727d2c",
+      "inputoutput.html_36_74ffc5d90ab4d64d",
+      "inputoutput.html_33_275a7a106676d27c"
+    ]
+  },
+  {
+    "id": "Q20",
+    "question": "What are generator expressions in Python?",
+    "relevant_chunks": [
+      "classes.html_76_a5f1c4e304ad8ebf"
+    ]
+  }
+]
